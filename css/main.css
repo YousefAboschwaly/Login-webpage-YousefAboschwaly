@@ -1,0 +1,87 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #24353f;
+  color: white;
+}
+
+.container{
+  width: 75%;
+  text-align: center;
+  
+}
+/* login section */
+.login-page{
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.login-page h1{
+  color: #17A2B8;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+input{
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  margin-top: 1rem;
+  background-color: transparent !important;
+  border: 1px solid white;
+  color: white !important;
+}
+input.form-control:focus{
+  box-shadow: none;
+}
+input::placeholder{
+  color: #95B6B6 !important;
+  font-size: 17px;
+}
+button{
+  margin-top: 32px;
+  margin-bottom: 16px;
+  color: #17A2B8 !important;
+  border-color: #17A2B8 !important;
+}
+button:hover{
+  background-color: #17A2B8 !important;
+  color: white !important;
+}
+button:focus{
+  box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5);
+}
+p{
+  font-size: 18px ;
+}
+a{
+  color: white;
+  margin-left: 3px;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.navbar{
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.navbar .container{
+  display: flex;
+  justify-content: space-between !important;
+}
+.nav-link{
+  border: 1px solid  yellow;
+}
+
+a:hover{
+  text-decoration: none;
+}
+@media (max-width:992px) {
+  .login-page{
+    width: 100% !important;
+  }
+}
